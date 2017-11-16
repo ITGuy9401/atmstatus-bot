@@ -20,6 +20,8 @@ open class AtmstatusbotApplication {
 
     @Bean
     fun defaultPropertyConfigurer() = PropertySourcesPlaceholderConfigurer()
+
+
 }
 
 fun main(args: Array<String>) {
